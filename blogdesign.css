@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+.container{
+    background-color: hsl(47, 88%, 63%)
+}
+
+.box{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 400px;
+    height: 510px;
+    border-radius: 20px;
+    border: 1px solid black;
+    border-color: black;
+    box-shadow: 10px 10px 0px black;
+    position: relative;
+    justify-content: center;
+}
+.bg{
+    position: absolute;
+    background-color: hsl(47, 88%, 63%);
+    width: 80px;
+    height: 40px;
+    border-radius: 7px;
+    bottom: 40%;
+    left: 5%;
+}
+.bg p{
+    position: absolute;
+    bottom: 35%;
+    left: 5%;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;   
+}
+#blogimg{
+    position: absolute;
+    width: 90%;
+    top: 5%;
+    border-radius: 12px;
+}
+#pub{
+    position: absolute;
+    bottom: 34%;
+    left: 5%;
+}
+h2{
+    position: absolute;
+    bottom: 26%;
+    left: 5%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#em{
+    position: absolute;
+    bottom: 6%;
+    text-align: left;
+    padding: 5%;
+    color: gray;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#eo{
+    position: absolute;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    bottom: 2%;
+    left: 6%;
+}
+#name{
+    position: absolute;
+    bottom: 3%;
+    left: 16%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
